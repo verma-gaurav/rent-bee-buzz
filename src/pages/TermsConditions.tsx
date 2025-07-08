@@ -9,19 +9,26 @@ const TermsConditions = () => {
       <WhatsAppButton />
       
       <main className="pt-20 lg:pt-24">
-        <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+        {/* Hero Section */}
+        <div className="bg-hero-gradient py-20 lg:py-32">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center max-w-4xl mx-auto animate-slide-up">
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6">
                 Terms & <span className="text-gradient">Conditions</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl lg:text-2xl text-muted-foreground mb-8">
                 Last Updated: 03 June 2025
               </p>
+              <div className="text-6xl mb-8 animate-float">📋</div>
             </div>
+          </div>
+        </div>
+
+        <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
+          <div className="max-w-4xl mx-auto">
 
             <div className="prose prose-lg max-w-none">
-              <div className="bg-card rounded-2xl p-8 lg:p-12 shadow-card space-y-8">
+              <div className="card-elegant space-y-8 animate-slide-up">
                 <p className="text-lg leading-relaxed">
                   Welcome to Rent Bee. These Terms & Conditions ("Terms") govern your access to and use of our platform, services, and content. By using Rent Bee, you agree to comply with and be bound by these Terms. If you do not agree, you may not use our platform.
                 </p>

@@ -1,4 +1,4 @@
-import { MessageCircle, Mail, MapPin, Instagram } from 'lucide-react';
+import { MessageCircle, Mail, MapPin, Instagram, Facebook } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -22,20 +22,31 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://wa.me/919828822111"
+                href="https://www.facebook.com/profile.php?id=61577549594290"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center transition-colors"
-                aria-label="WhatsApp"
+                className="w-10 h-10 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center transition-colors hover:scale-110 duration-300"
+                aria-label="Facebook"
               >
-                <MessageCircle className="h-5 w-5 text-white" />
+                <Facebook className="h-5 w-5 text-white" />
               </a>
               <a
-                href="#"
-                className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center transition-colors"
+                href="https://www.instagram.com/rentbee.in/?next=%2F"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-full flex items-center justify-center transition-colors hover:scale-110 duration-300"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5 text-white" />
+              </a>
+              <a
+                href="https://wa.me/919828822111"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center transition-colors hover:scale-110 duration-300"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="h-5 w-5 text-white" />
               </a>
             </div>
           </div>

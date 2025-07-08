@@ -18,10 +18,10 @@ const Header = () => {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { name: 'How It Works', href: '/#how-it-works' },
+    { name: 'How It Works', href: '/how-it-works' },
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms & Conditions', href: '/terms' },
-    { name: 'Contact', href: '/#contact' },
+    { name: 'Contact', href: '/contact' },
   ];
 
   const isActive = (href: string) => {

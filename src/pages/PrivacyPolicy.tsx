@@ -9,19 +9,26 @@ const PrivacyPolicy = () => {
       <WhatsAppButton />
       
       <main className="pt-20 lg:pt-24">
-        <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h1 className="text-4xl lg:text-5xl font-bold mb-4">
+        {/* Hero Section */}
+        <div className="bg-hero-gradient py-20 lg:py-32">
+          <div className="container mx-auto px-4 lg:px-8">
+            <div className="text-center max-w-4xl mx-auto animate-slide-up">
+              <h1 className="text-4xl lg:text-6xl font-bold mb-6">
                 Privacy <span className="text-gradient">Policy</span>
               </h1>
-              <p className="text-xl text-muted-foreground">
+              <p className="text-xl lg:text-2xl text-muted-foreground mb-8">
                 Last Updated: 03 June 2025
               </p>
+              <div className="text-6xl mb-8 animate-float">🔒</div>
             </div>
+          </div>
+        </div>
+
+        <div className="container mx-auto px-4 lg:px-8 py-12 lg:py-16">
+          <div className="max-w-4xl mx-auto">
 
             <div className="prose prose-lg max-w-none">
-              <div className="bg-card rounded-2xl p-8 lg:p-12 shadow-card space-y-8">
+              <div className="card-elegant space-y-8 animate-slide-up">
                 <p className="text-lg leading-relaxed">
                   Rent Bee ("we", "our", or "us") respects your privacy and is committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website, mobile application, or services.
                 </p>
